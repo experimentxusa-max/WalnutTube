@@ -32,10 +32,10 @@ material-icons-extended = { module = "androidx.compose.material:material-icons-e
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 
 # Hilt - Dagger (Phase B)
-# hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
-# hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 
-# Hilt - AndroidX (Phase B)
+# Hilt - AndroidX (Phase E — ViewModel integration)
 # hilt-lifecycle-viewmodel-compose = { module = "androidx.hilt:hilt-lifecycle-viewmodel-compose", version.ref = "hiltAndroidX" }
 
 # Networking (Phase C)
@@ -61,5 +61,5 @@ core-testing-ktx = { module = "androidx.test:core-ktx", version.ref = "coreTesti
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-# hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }

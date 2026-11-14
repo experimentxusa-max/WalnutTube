@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.kapt)
 }
 
@@ -65,6 +66,11 @@ dependencies {
     implementation(libs.lifecycle.runtime.compose)
     implementation(libs.material.icons.extended)
     implementation(libs.appcompat)
+
+    // Hilt (Phase B)
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+    // androidx.hilt:hilt-lifecycle-viewmodel-compose deferred to Phase E
 
     // Testing
     testImplementation(libs.junit)
