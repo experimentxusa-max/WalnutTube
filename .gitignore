@@ -1,0 +1,71 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.kt.bin
+*.class
+*.log
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.so
+*.o
+*.jar
+
+# Generated files
+*/generated/
+*/out/
+*/.externalNativeBuild/
+
+# Signing and credentials
+*.keystore
+*.jks
+*.key
+keystore.properties
+signing.properties
+*.pem
+*.p12
+*.pfx
+
+# CI/CD
+*.gradle.taskartifacts
+/out/
+
+# Test reports
+*/test-results/
+
+# Coverage
+*.ec
+*.exec
+jacoco/
+
+# Misc
+*.orig
+*.patch
+*.bak
+*~
