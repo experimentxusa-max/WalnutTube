@@ -39,11 +39,14 @@ hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hil
 # hilt-lifecycle-viewmodel-compose = { module = "androidx.hilt:hilt-lifecycle-viewmodel-compose", version.ref = "hiltAndroidX" }
 
 # Networking (Phase C)
-# okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 # okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
 
-# NewPipeExtractor (Phase D)
-# newpipe-extractor = { module = "com.github.TeamNewPipe:NewPipeExtractor", version.ref = "newpipeExtractor" }
+# NewPipeExtractor (Phase C)
+newpipe-extractor = { module = "com.github.TeamNewPipe:NewPipeExtractor", version.ref = "newpipeExtractor" }
+
+# Testing (Phase C)
+mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp" }
 
 # Core library desugaring (Phase C)
 # desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs_nio", version.ref = "desugar" }

@@ -72,9 +72,14 @@ dependencies {
     kapt(libs.hilt.compiler)
     // androidx.hilt:hilt-lifecycle-viewmodel-compose deferred to Phase E
 
+    // Networking (Phase C)
+    implementation(libs.okhttp)
+    implementation(libs.newpipe.extractor)
+
     // Testing
     testImplementation(libs.junit)
     testImplementation(libs.mockk)
+    testImplementation(libs.mockwebserver)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.compose.test.junit4)
